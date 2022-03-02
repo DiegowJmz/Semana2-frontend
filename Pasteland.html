@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pasteland</title>
+</head>
+<body>
+	<img src="Logo.png" alt="Logo" width="100px" height="100px">
+	<center><h1>Bienvenidos a Pasteland</h1></center> 
+	<br>
+	<center><p>El lugar donde la vida sabe mejor</p></center>
+
+	<!-- Menu de sabores -->
+
+	<hr>
+		<h2>Sabores</h2>
+
+	<ul>
+        <li> Chocolate ............... $250 </li>
+        <li> Fresa....................... $250 </li>
+        <li> Vainilla................... $250 </li>
+        <li> Napolitano.............. $250 </li>
+        <li> Relleno................... $350 </li>
+
+    </ul>
+	
+	<!-- Menu de adornos-->
+	<table>
+		<tr>
+			<th>Adorno</th>
+			<th>Precio</th>
+		</tr>
+
+		<tr>
+			<td><img src="Sencillo.jpg" alt="Sencillo" width="100px" height="100px"></td>
+			<td>$0</td>
+		</tr>
+		<tr>
+			<td><img src="Detalles.jpg" alt="Datalles" width="100px" height="100px"></td>
+			<td>$70</td>
+		</tr>
+		<tr>
+			<td><img src="Frutas.jpg" alt="Frutas" width="100px" height="100px"></td>
+			<td>$130</td>
+		</tr>
+		<tr>
+			<td><img src="Tematica.jpg" alt="Tematicas" width="100px" height="100px"></td>
+			<td>$200</td>
+		</tr>
+	</table>
+
+	<!-- Escoger los sabores, incluso si estan combinados. -->
+
+	<p>Esocoja el sabor de su pastel, puede seleccionar mas de uno</p>
+	<input type="radio" id= "Chocolate" name="Sabor" value="Chocolate">
+	<label for="Chocolate">Chocolate</label><br>
+
+	<input type="radio" id= "Fresa" name="Sabor1" value="Fresa">
+	<label for="Fresa">Fresa</label><br>
+
+	<input type="radio" id= "Vainilla" name="Sabor3" value="Vainilla">
+	<label for="Vainilla">Vainilla</label><br>
+
+	<input type="radio" id= "Relleno" name="Sabor4" value="Relleno">
+	<label for="Relleno">Relleno</label><br>
+
+	<!-- Escoger el adorno para su pastel, se puede mas de uno.-->
+	<p>Esocoja el adorno de su pastel, puede seleccionar mas de uno</p>
+	<input type="radio" id= "Sencillo" name="adorno" value="Sencillo">
+	<label for="Sencillo">Sencillo</label><br>
+
+	<input type="radio" id= "Con detalles de chantillin" name="adorno1" value="Con detalles de chantillin">
+	<label for="Con detalles de chantillin">Con detalles de chantillin</label><br>
+
+	<input type="radio" id= "Con detalles de fruta" name="adorno2" value="Con detalles de fruta">
+	<label for="Con detalles de fruta">Con detalles de fruta</label><br>
+
+	<input type="radio" id= "Tematica" name="adorno3" value="Tematica">
+	<label for="Tematica">Tematica</label><br>
+
+	<!-- Formulario -->
+	<hr> 
+
+	<label for="Nombre">Nombre</label> <br>
+    <input type="text" id="Nombre" name="Nombre">
+    <br><br>
+
+    <label for="correo1">Correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="numero1">Celular</label><br>
+    <input type="text" id="numero1" name="numero1" maxlength="10"><br><br>
+
+    <label for="Descripcion">Describa como quiere su pastel</label> <br>
+    <input type="text" id="Descripcion" name="Descripcion" size="50"> 
+    <br><br>
+
+    <!-- Boton de pedido -->
+
+    <input type="button" id="boton1" name="boton1" value="Hacer pedido"><br><br>
+
+    <footer>Ciudad de México, Coyoacan.          55-3523-5236          Pasteland en Facebook,Twitter e Instagram</footer>
+
+</body>
+</html>
